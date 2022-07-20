@@ -140,9 +140,6 @@ header > hr {
   display: flex;
   list-style: none;
 }
-.main > ul > li{
-  padding-right: 10px;
-}
 .main > ul > li > a {
   text-decoration: none;
   color: #2D2D2D;
@@ -698,3 +695,15 @@ color: #D00000;
 color: var(--bg-color) !important;
 }
 /* Hover */
+/* ooooooooooooooooooooooo */
+.main{
+  display: flex;
+  align-items: center;
+}
+.main > ul{
+  margin-bottom: 0px;
+}
+.main > ul > li {
+  padding-right: 60px;
+}
+/* ooooooooooooooooooooooo */
