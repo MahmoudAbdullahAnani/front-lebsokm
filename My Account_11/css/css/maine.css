@@ -127,7 +127,9 @@ h5{
 .browse_bottom a:hover {
   color: red !important ;
 }
-
+#ffr{
+  text-decoration: none;
+}
 .browse_bottom > ul {
   color:#2D2D2D;
   background-color: #FFFFFF;
@@ -139,9 +141,6 @@ header > hr {
 .main > ul {
   display: flex;
   list-style: none;
-}
-.main > ul > li{
-  padding-right: 10px;
 }
 .main > ul > li > a {
   text-decoration: none;
@@ -740,3 +739,15 @@ input[type="submit"]
 }
 /*  */
 /* End Sectione Onlle */
+/* ooooooooooooooooooooooo */
+.main{
+  display: flex;
+  align-items: center;
+}
+.main > ul{
+  margin-bottom: 0px;
+}
+.main > ul > li {
+  padding-right: 60px;
+}
+/* ooooooooooooooooooooooo */

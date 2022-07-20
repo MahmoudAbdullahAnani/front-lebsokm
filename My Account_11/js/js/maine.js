@@ -24,20 +24,37 @@ link_1.onclick = function () {
   link_5.style.color = "#000000"
   link_6.style.color = "#000000"
 }
-link_2.onclick = function () {
-  content_rigth_2.style.display = "block"
-  content_rigth_3_tow.style.display = "none"
-  content_rigth_5.style.display = "none"
-  content_rigth_1.style.display = "none"
-  content_rigth_3.style.display = "none"
-  content_rigth_4.style.display = "none"
-  link_2.style.color = "#D00000"
-  link_1.style.color = "#000000"
-  link_3.style.color = "#000000"
-  link_4.style.color = "#000000"
-  link_5.style.color = "#000000"
-  link_6.style.color = "#000000"
-}
+  link_2.onclick = function () {
+    content_rigth_2.style.display = "block"
+    content_rigth_3_tow.style.display = "none"
+    content_rigth_5.style.display = "none"
+    content_rigth_1.style.display = "none"
+    content_rigth_3.style.display = "none"
+    content_rigth_4.style.display = "none"
+    link_2.style.color = "#D00000"
+    link_1.style.color = "#000000"
+    link_3.style.color = "#000000"
+    link_4.style.color = "#000000"
+    link_5.style.color = "#000000"
+    link_6.style.color = "#000000"
+  }
+  //*********************************************** */ 
+    let my_b_1 = document.getElementById("my_b_1");
+    my_b_1.onclick = function() {
+      content_rigth_2.style.display = "block"
+      content_rigth_3_tow.style.display = "none"
+      content_rigth_5.style.display = "none"
+      content_rigth_1.style.display = "none"
+      content_rigth_3.style.display = "none"
+      content_rigth_4.style.display = "none"
+      link_2.style.color = "#D00000"
+      link_1.style.color = "#000000"
+      link_3.style.color = "#000000"
+      link_4.style.color = "#000000"
+      link_5.style.color = "#000000"
+      link_6.style.color = "#000000"
+    }
+  // ************************************************** */
 link_3.onclick = function () {
   content_rigth_3.style.display = "flex"
   content_rigth_3_tow.style.display = "none"
@@ -52,6 +69,23 @@ link_3.onclick = function () {
   link_5.style.color = "#000000"
   link_6.style.color = "#000000"
 }
+// ******************************************* */
+let my_b_2 = document.getElementById("my_b_2");
+my_b_2.onclick = function () {
+  content_rigth_3.style.display = "flex"
+  content_rigth_3_tow.style.display = "none"
+  content_rigth_5.style.display = "none"
+  content_rigth_1.style.display = "none"
+  content_rigth_2.style.display = "none"
+  content_rigth_4.style.display = "none"
+  link_3.style.color = "#D00000"
+  link_1.style.color = "#000000"
+  link_2.style.color = "#000000"
+  link_4.style.color = "#000000"
+  link_5.style.color = "#000000"
+  link_6.style.color = "#000000"
+}
+// ******************************************* */
 link_4.onclick = function () {
   content_rigth_4.style.display = "block"
   content_rigth_3_tow.style.display = "none"
@@ -66,6 +100,23 @@ link_4.onclick = function () {
   link_5.style.color = "#000000"
   link_6.style.color = "#000000"
 }
+// ************************************ */
+let my_b_3 = document.getElementById("my_b_3");
+my_b_3.onclick = function () {
+  content_rigth_4.style.display = "block"
+  content_rigth_3_tow.style.display = "none"
+  content_rigth_5.style.display = "none"
+  content_rigth_3.style.display = "none"
+  content_rigth_2.style.display = "none"
+  content_rigth_1.style.display = "none"
+  link_4.style.color = "#D00000"
+  link_1.style.color = "#000000"
+  link_2.style.color = "#000000"
+  link_3.style.color = "#000000"
+  link_5.style.color = "#000000"
+  link_6.style.color = "#000000"
+}
+// ************************************ */
 link_5.onclick = function () {
   content_rigth_5.style.display = "flex"
   content_rigth_4.style.display = "none"
@@ -80,6 +131,23 @@ link_5.onclick = function () {
   link_4.style.color = "#000000"
   link_6.style.color = "#000000"
 }
+// *********************************** */
+let my_b_4 = document.getElementById("my_b_4");
+my_b_4.onclick = function () {
+  content_rigth_5.style.display = "flex"
+  content_rigth_4.style.display = "none"
+  content_rigth_3.style.display = "none"
+  content_rigth_2.style.display = "none"
+  content_rigth_1.style.display = "none"
+  content_rigth_3_tow.style.display = "none"
+  link_5.style.color = "#D00000"
+  link_1.style.color = "#000000"
+  link_2.style.color = "#000000"
+  link_3.style.color = "#000000"
+  link_4.style.color = "#000000"
+  link_6.style.color = "#000000"
+}
+// *********************************** */
 link_6.onclick = function () {
   content_rigth_3_tow.style.display = "flex"
   content_rigth_5.style.display = "none"
