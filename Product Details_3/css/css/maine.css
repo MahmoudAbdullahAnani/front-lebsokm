@@ -761,11 +761,12 @@ cursor: pointer;
 }
 .quick_view{
   position: absolute;
-  top: calc(100% - 24px);
+  top: calc(100% - 46px);
   background-color: #242424;
   color: #FFFFFF;
   text-align: center;
   width: 100%;
+  height: 46px;
 }
 .detils{
   text-align: center;
@@ -793,7 +794,9 @@ cursor: pointer;
   display: none;
 }
 #card_1_photo_1:hover #quick_1 {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* =============================== */
 /* Card 2 */
@@ -816,7 +819,9 @@ cursor: pointer;
   display: none;
 }
 #card_2_photo_2:hover #quick_2{
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* =============================== */
 /* Card 3 */
@@ -839,7 +844,9 @@ cursor: pointer;
   display: none;
 }
 #card_3_photo_3:hover #quick_3 {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* =============================== */
 /* Card 4 */
@@ -862,7 +869,9 @@ cursor: pointer;
   display: none;
 }
 #card_4_photo_4:hover #quick_4{
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* =============================== */
 /* Card 5 */
@@ -885,7 +894,9 @@ cursor: pointer;
   display: none;
 }
 #row_2_photo_1:hover #quick_5{
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* =============================== */
 /* Card 6 */
@@ -908,7 +919,9 @@ cursor: pointer;
   display: none;
 }
 #row_2_photo_2:hover #quick_6{
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* =============================== */
 /* Card 7 */
@@ -931,7 +944,9 @@ cursor: pointer;
   display: none;
 }
 #row_2_photo_3:hover #quick_7{
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* =============================== */
 /* Card 7 */
@@ -954,7 +969,9 @@ cursor: pointer;
   display: none;
 }
 #row_2_photo_4:hover #quick_8{
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* End hover cards */
 /* End Cards */
