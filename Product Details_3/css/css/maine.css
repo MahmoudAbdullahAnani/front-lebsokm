@@ -145,9 +145,6 @@ header > hr {
   list-style: none;
   margin-bottom: 0px !important;
 }
-.main > ul > li{
-  padding-right: 60px;
-}
 .main > ul > li > a {
   text-decoration: none;
   color: #2D2D2D;
