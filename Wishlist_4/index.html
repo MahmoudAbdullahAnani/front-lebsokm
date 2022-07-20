@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ::Title  -->
+  <title>Wishlist</title>
+  <!-- ::Logo -->
+  <link rel="icon" href="./images/Logo.png">
+  <!-- :: Style Css -->
+  <link rel="stylesheet" href="./css/css/maine.css">
+  <!-- :: Style Bootstrap-->
+  <link rel="stylesheet" href="./css/css/bootstrap.min.css">
+  <!-- :: Style Bootstrap Map-->
+  <link rel="stylesheet" href="./css/css/bootstrap.min.css.map">
+  <!-- :: Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@200;400;600;700;800&family=Epilogue:wght@500;700&family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@200;400;600&family=Raleway:wght@400;700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300&display=swap"
+    rel="stylesheet">
+    <!-- :: Medai large  -->
+<link rel="stylesheet" href="./medai/screen_large.css">
+<!-- :: -->
+<link
+rel="stylesheet"
+href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+
+<!-- Demo styles -->
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
+
+</head>
+<body>
+<!-- ::Header -->
+<header class="">
+  <div class="nav_top container">
+    <p class="p_nav_top">Welcome to Lebskom store message or remove it!</p>
+    <div class="contenrs_nav_top">
+    <div class="browsecategories dropdown">
+      <a class="  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        USD
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li><a class="dropdown-item" href="#">USD</a></li>
+        <li><a class="dropdown-item" href="#">AED</a></li>
+        <li><a class="dropdown-item" href="#">EGP</a></li>
+      </ul>
+    </div>
+    <div class="browsecategories lan dropdown">
+      <a class="  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        ENG
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li><a class="dropdown-item" href="#">ENG</a></li>
+        <li><a class="dropdown-item" href="#">AR</a></li>
+      </ul>
+    </div>
+      <div class="contact">
+        <a href="../Contact Us_13/index.html">
+          <img src="./icons/Contact Icon.svg" alt="Contact Icon">
+          <span class="text_contact">Contact</span>
+        </a>
+      </div>
+      <div class="help">
+        <a href="../Term and Conditions_12/index.html">
+          <img src="./icons/Help Icon.svg" alt="Help Icon">
+          <span class="text_help">Need Help</span>
+        </a>
+      </div>
+      <div class="sign_in">
+        <a href="../Signin_9/index.html">
+          <img src="./icons/UserIcon.svg" alt="UserIcon">
+          <span class="text_singn_in">Sign in
+          / Register</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="nav_center container">
+    <div class="logo">
+      <a href="../Homepage_1/index.html">
+        <img src="./images/Logo.png" alt="Logo">
+      </a>
+    </div>
+    <div class="search">
+      <input type="text" name="" id="Search" placeholder="Search">
+      <i class="fa-solid fa-magnifying-glass" id="icon_search"></i>
+    </div>
+    <div class="shopping_cart">
+      <a href="#">
+        <img src="./icons/wishlist 1.svg" alt="wishlist">
+      </a>
+      <div class="shopping_cart_text">
+        <span class="span_one">Shopping Cart:</span><br><span class="span_two">$0.00</span>
+      </div>
+      <div class="cart_bag">
+        <a href="../Cart_5/index.html">
+          <img src="./icons/cart bag 1.svg" alt="cart bag 1">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="nav_bottom">
+    <div class="browsecategories browse_bottom">
+      <a href="../Categories_2/index.html" target="_blank">
+        <div class="dropdown" >
+          <img src="../Product Details_3/icons/title/List 1.png" alt="List 1">
+          <button class="dropbtn" id="fds" style="color: #2D2D2D; background-color: transparent;font-size: 14px; line-height: 25px; font-weight: bold;">Browse Categories</button>
+          <img src="../Product Details_3/icons/title/Arrow.png" alt="Arrow">
+          <div class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#">women</a>
+            <a href="#">Kids</a>
+          </div>
+        </div>
+      </a>
+     </div>
+
+    <div class="main">
+      <ul>
+        <li>
+          <a href="#">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            women
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Kids
+          </a>
+        </li>
+        <li>
+          <a href="../Categories_2/index.html">
+            Shop
+          </a>
+        </li>
+        <li>
+          <a href="../Homepage_1/index.html">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="map_nav">
+      <div class="map_nav_one">
+        <a href="#">
+        <h5>Daily Deals</h5>
+        </a>
+          <img src="./icons/Deals 12.svg" alt="Deals 1">
+        </div>
+        <div class="map_nav_two">
+          <a href="#">
+            <h5>Track Order</h5>
+          </a>
+          <img src="./icons/Group77.svg" alt="Group">
+        </div>
+    </div>
+  </div>
+</header>
+<!-- ::Home / Wishlist sc_1 -->
+<section class="sc_1">
+    <h1>Wishlist</h1>
+      <p>Home / <span>Wishlist</span></p>
+</section>
+<!-- ::section two -->
+<section class="sc_2">
+  <div class="header_section_two">
+    <p>PRODUCT</p>
+    <div class="links_header">
+      <a href="#">PRICE</a>
+      <a href="#">STOCK STATUS</a>
+      <a href="#">Actions</a>
+    </div>
+  </div>
+  <hr>
+  <div class="contenr_1" id="cont_1">
+    <div class="img_cont">
+      <img id="close" src="./icons/Close.svg" alt="Close">  
+    </div>
+    <div class="text_cont_1">
+      <p>Beige knitted elastic runner shoes</p>
+      <span id="sp_1">$90.00</span>
+      <span id="sp_2">In Stock</span>
+    </div>
+    <div class="two_btn">
+      <a href="#" >Quick View</a>
+      <a href="#" id="fd">Add to cart</a>
+    </div>
+  </div>
+  <hr id="cont_1_hr_1">
+  <div class="contenr_1" id="cont_2">
+    <div class="img_cont">
+      <img id="close_1"  src="./icons/Close.svg" alt="Close">  
+    </div>
+    <div class="text_cont_1">
+      <p>Beige knitted elastic runner shoes</p>
+      <span id="sp_1">$90.00</span>
+      <span id="sp_2">In Stock</span>
+    </div>
+    <div class="two_btn">
+      <a href="#" >Quick View</a>
+      <a href="#" id="fd">Add to cart</a>
+    </div>
+  </div>
+  <hr id="cont_2_hr_2">
+  <div class="contenr_1" id="cont_3">
+    <div class="img_cont">
+      <img id="close_2" src="./icons/Close.svg" alt="Close">  
+    </div>
+    <div class="text_cont_1">
+      <p>Beige knitted elastic runner shoes</p>
+      <span id="sp_1">$90.00</span>
+      <span id="sp_2">In Stock</span>
+    </div>
+    <div class="two_btn">
+      <a href="#" >Quick View</a>
+      <a href="#" id="fd">Add to cart</a>
+    </div>
+  </div>
+  <hr id="cont_3_hr_3">
+  <div class="contenr_1" id="cont_4">
+    <div class="img_cont">
+      <img id="close_3" src="./icons/Close.svg" alt="Close">  
+    </div>
+    <div class="text_cont_1">
+      <p>Beige knitted elastic runner shoes</p>
+      <span id="sp_1">$90.00</span>
+      <span id="sp_2">In Stock</span>
+    </div>
+    <div class="two_btn">
+      <a href="#" >Quick View</a>
+      <a href="#" id="fd">Add to cart</a>
+    </div>
+  </div>
+  <hr id="cont_4_hr_4">
+  <div class="contenr_1" id="cont_5">
+    <div class="img_cont">
+      <img id="close_4" src="./icons/Close.svg" alt="Close">  
+    </div>
+    <div class="text_cont_1">
+      <p>Beige knitted elastic runner shoes</p>
+      <span id="sp_1">$90.00</span>
+      <span id="sp_2">In Stock</span>
+    </div>
+    <div class="two_btn">
+      <a href="#" >Quick View</a>
+      <a href="#" id="fd">Add to cart</a>
+    </div>
+  </div>
+  <hr id="cont_5_hr_5">
+</section>
+<!-- ::Footer -->
+<footer>
+  <!-- :Top Footer -->
+  <div class="top_footer">
+    <div class="call">
+      <img src="./icons/Group.svg" alt="Group">
+      <p>Call US <br> 906 233 3304 00</p>
+    </div>
+    <div class="sub">
+      <p>Subscribe to our Newsletter <br><span>Get all the latest information, Sales and Offers.</span></p>
+    </div>
+    <div class="input_mail_footer">
+      <form action="" method="get" target="_blank">
+        <input id="in_1" type="text" placeholder="Email Address Here...">
+        <input id="in_2" type="submit" value="Subscribe" name="" id="">
+      </form>
+    </div>
+  </div>
+  <hr>
+  <div class="center_footer">
+    <div class="center_footer_1">
+      <p class="center_footer_1_p">Contact Info</p>
+      <div class="center_footer_1_text">
+        <p class="pargraf_footer">PHONE<span class="span_footer">: Telephone Number Here</span></p>
+        <p class="pargraf_footer">EMAIL<span class="span_footer">: Put E-Mail Here</span></p>
+        <p class="pargraf_footer">ADDRESS<span class="span_footer">: Put Address here</span></p>
+        <p class="pargraf_footer">WORKING DAYS / HOURS:<br><span class="span_footer">Mon - Sun / 9:00 AM - 9:00 PM</span></p>
+      </div>
+    </div>
+    <div class="center_footer_2">
+      <p class="center_footer_1_p">Contact Info</p>
+      <div class="center_footer_2_text">
+        <p class="pargraf_footer">PHONE<span class="span_footer">: Telephone Number Here</span></p>
+        <p class="pargraf_footer">EMAIL<span class="span_footer">: Put E-Mail Here</span></p>
+        <p class="pargraf_footer">ADDRESS<span class="span_footer">: Put Address here</span></p>
+        <p class="pargraf_footer">WORKING DAYS / HOURS:<br><span class="span_footer">Mon - Sun / 9:00 AM - 9:00 PM</span></p>
+      </div>
+    </div>
+    <div class="center_footer_3">
+      <p class="center_footer_1_p">Contact Info</p>
+      <div class="center_footer_3_text">
+        <p class="pargraf_footer">PHONE<span class="span_footer">: Telephone Number Here</span></p>
+        <p class="pargraf_footer">EMAIL<span class="span_footer">: Put E-Mail Here</span></p>
+        <p class="pargraf_footer">ADDRESS<span class="span_footer">: Put Address here</span></p>
+        <p class="pargraf_footer">WORKING DAYS / HOURS:<br><span class="span_footer">Mon - Sun / 9:00 AM - 9:00 PM</span></p>
+      </div>
+    </div>
+    <div class="insta">
+      <p class="center_footer_1_p">Instagram</p>
+      <div class="insta_img">
+        <div class="insta_img_row_1">
+          <a href="#">
+            <img src="./images/3 (1) 2.png" alt="3">
+          </a>
+          <a href="#">
+            <img src="./images/3 2.png" alt="3 2">
+          </a>
+          <a href="#">
+            <img src="./images/4.png" alt="4">
+          </a>
+        </div>
+        <div class="insta_img_row_2">
+          <a href="#">
+            <img src="./images/3-2 2.png" alt="3-2">
+          </a>
+          <a href="#">
+            <img src="./images/5.png" alt="5">
+          </a>
+          <a href="#">
+            <img src="./images/slide-2 1.png" alt="slide-2">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="bottom_footer">
+    <div class="bottom_footer_payment">
+      <a href="#">
+        <img src="./icons/payment 1.png" alt="payment">
+      </a>
+    </div>
+    <div class="copy_ritgh">
+      <p>Design and developed by Adsamy Marketing Agency</p>
+    </div>
+    <div class="contact_by_sodhsay_midaya">
+      <a href="#">
+        <img src="./icons/Facebook.svg" alt="Facebook">
+      </a>
+      <a href="#">
+        <img src="./icons/Twetter.svg" alt="Twetter">
+      </a>
+      <a href="#">
+        <img src="./icons/Instgram.svg" alt="Instgram">
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
+  <!-- ::Js Maine -->
+  <script src="./js/js/maine.js"></script>
+  <!-- ::Js Bootstrap -->
+  <script src="./js/js/bootstrap.bundle.js"></script>
+  <!-- ::Js bootstrap Map -->
+  <script src="./js/js/bootstrap.bundle.js.map"></script>
+  <!-- Font Awsame -->
+  <script src="./js/fontAwsam/all.min.js"></script>
+</body>
+</html>

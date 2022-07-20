@@ -1,0 +1,143 @@
+@media (max-width: 991px) {
+    .nav_top {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_center{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .search > input {
+        width: 200px;
+        height: 35px;
+    }
+    .search svg{
+        left: 85%;
+    }
+    .contenrs_nav_top {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav_bottom,
+    .main > ul{
+        flex-wrap: wrap;
+    }
+    .nav_top > p{
+        line-height: 10px;
+    }
+    .logo > a > img {
+        height: 40px;
+    }
+    .map_nav {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 460px) {
+    .banner_one img,
+    .banner_two img{
+      max-width: 350px;
+    }
+    p {
+        font-size: small;
+    }
+    h1 {
+        font-size: x-large;
+    }
+    input {
+        font-size: small;
+    }
+    .input_email a{
+        font-size: small;
+    }
+    .featured_top > h1 {
+        font-size: x-large;
+    }
+    .test {
+        float: none;
+        margin-bottom: 20px;
+        transform: translateX(-50%);
+        position: relative;
+        left: 50%;
+    }
+}
+@media (max-width: 540px) {
+    .sc_all{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 700px) {
+    .header_section_two > p {
+        top: -30px;
+    }
+}
+
+@media (max-width: 780px) {
+    .header_left{
+        flex-direction: column;
+        align-items: center; 
+    }
+    .card_3, .card_2, .card_1 {
+        flex-direction: column;
+    }
+    .p{
+        flex-direction: column;
+    }
+    .footer_btn{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .order{
+        margin-top: 40px;
+    }
+    .left hr {
+        max-width: -webkit-fill-available;
+    }
+}
+@media (max-width: 870px) {
+    .section_onlle{
+        text-align: center;
+    }
+    .all_pay{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box_pay_1,
+    .box_pay_2,
+    .box_pay_3
+    {
+        max-width: fit-content;
+    }
+    .name_1{
+        flex-direction: column;
+        text-align: start;
+        align-items: center;
+    }
+    .name_2 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        text-align: start;
+    }
+    .street_address{
+        align-items: center;
+    }
+    #emm{
+        min-width: 320px;
+    }
+    .box-credit {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .box-input-left input {
+        width: 320px;
+    }
+    #datee{
+        width: 320px;
+    }
+}
